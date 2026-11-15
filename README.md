@@ -1,77 +1,133 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving\&color=0:050816,45:123B66,100:00C9FF\&height=220\&section=header\&text=REHAN%20AKHTAR\&fontSize=52\&fontColor=ffffff\&animation=fadeIn\&fontAlignY=36\&desc=DATA%20ANALYST%20%7C%20FULL-STACK%20DEVELOPER\&descSize=16\&descAlignY=58" width="100%" alt="Rehan Akhtar profile banner" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=21\&duration=2800\&pause=900\&color=00C9FF\&center=true\&vCenter=true\&width=700\&lines=Data+Analyst+%F0%9F%93%8A;Full-Stack+Developer+%F0%9F%92%BB;Python+%7C+SQL+%7C+Power+BI;Advanced+Excel+%7C+React;Turning+Data+Into+Useful+Insights" alt="Typing introduction" />
-<br/>
-<a href="https://rehan-akhtar-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-00C9FF?style=for-the-badge\&logo=vercel\&logoColor=white" alt="Portfolio" />
-</a>
-<a href="mailto:rehanakhtar051181@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white" alt="Email" />
-</a>
-<a href="https://github.com/rehanakhtar051181-boop">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub" />
-</a>
-<br/><br/>
-<img src="https://komarev.com/ghpvc/?username=rehanakhtar051181-boop\&label=PROFILE%20VIEWS\&color=00C9FF\&style=for-the-badge" alt="Profile views" />
+
+  <img src="./rehan-banner.gif" width="100%" alt="Rehan Akhtar — Data Analyst and Full-Stack Developer" />
+
+  <br />
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=850&color=58A6FF&center=true&vCenter=true&width=720&lines=Turning+Data+Into+Meaningful+Insights;Building+Clean+And+Useful+Applications;Python+%7C+SQL+%7C+Power+BI+%7C+React;Always+Learning%2C+Building%2C+Improving" alt="Animated typing introduction" />
+
+  <br /><br />
+
+  <a href="https://rehan-akhtar-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=58A6FF&labelColor=0D1117" alt="Portfolio" />
+  </a>
+  <a href="mailto:rehanakhtar051181@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117" alt="Email" />
+  </a>
+  <a href="https://github.com/rehanakhtar051181-boop">
+    <img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117" alt="GitHub" />
+  </a>
+
+  <br /><br />
+
+  <img src="https://komarev.com/ghpvc/?username=rehanakhtar051181-boop&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" alt="Profile views" />
+
 </div>
+
 ---
-👋 About Me
-Hi, I'm Rehan Akhtar, a Data Analyst and Full-Stack Developer from India.
-I work with data, build web applications, and enjoy turning ideas into practical solutions.
-📊 Interested in Data Analytics, reporting, and data visualization.
-💻 Interested in Full-Stack Development and building web applications.
-🌱 Always learning and improving my technical skills.
-💬 Ask me about Python, SQL, Power BI, Advanced Excel, and React.
-📄 Explore my work and experience: https://rehan-akhtar-portfolio.vercel.app/
-📫 Reach me at rehanakhtar051181@gmail.com
+
+<table width="100%" border="0">
+  <tr>
+    <td width="66%" valign="middle">
+
+<h2>🚀 About Me</h2>
+
+Hi, I'm **Rehan Akhtar**, a **Data Analyst & Full-Stack Developer from India**.
+
+I enjoy working with data, creating useful visualizations, and building web and mobile applications. I like combining analytical thinking with practical development to turn ideas into useful solutions.
+
+- 📊 **Data Analytics:** SQL, Power BI, Advanced Excel, Pandas
+- 💻 **Development:** Python, JavaScript, PHP, HTML5, React
+- 📱 **Mobile:** React Native
+- 🧰 **Tools:** MySQL, Git, Scikit-Learn
+- 🌱 Always learning and improving my skills.
+- 💬 Ask me about **Python, SQL, Power BI, Advanced Excel, and React**.
+
+    </td>
+    <td width="34%" align="center" valign="middle">
+      <img src="./pixel-astronaut.jpg" width="250" alt="Pixel astronaut working at a computer" />
+    </td>
+  </tr>
+</table>
+
 ---
-🛠️ Languages, Tools & Technologies
+
+<h2 align="center">🧠 Languages, Tools & Technologies</h2>
+
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,js,php,html,react,mysql,git\&theme=dark" alt="Python, JavaScript, PHP, HTML, React, MySQL and Git icons" />
-<br/><br/>
-<img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge\&logo=postgresql\&logoColor=58A6FF" alt="SQL" />
-<img src="https://img.shields.io/badge/Power%20BI-0D1117?style=for-the-badge\&logo=powerbi\&logoColor=F2C811" alt="Power BI" />
-<img src="https://img.shields.io/badge/Advanced%20Excel-0D1117?style=for-the-badge\&logo=microsoftexcel\&logoColor=217346" alt="Advanced Excel" />
-<img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge\&logo=pandas\&logoColor=FFFFFF" alt="Pandas" />
-<img src="https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge\&logo=scikitlearn\&logoColor=F7931E" alt="Scikit-Learn" />
-<img src="https://img.shields.io/badge/React%20Native-0D1117?style=for-the-badge\&logo=react\&logoColor=61DAFB" alt="React Native" />
+
+  <h3>Development</h3>
+
+  <img src="https://skillicons.dev/icons?i=py,js,php,html,react,mysql,git,github,vscode&theme=dark" alt="Python, JavaScript, PHP, HTML, React, MySQL, Git, GitHub and VS Code" />
+
+  <br /><br />
+
+  <h3>Data Analytics</h3>
+
+  <img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=mysql&logoColor=58A6FF" alt="SQL" />
+  <img src="https://img.shields.io/badge/POWER_BI-0D1117?style=for-the-badge&logo=powerbi&logoColor=F2C811" alt="Power BI" />
+  <img src="https://img.shields.io/badge/ADVANCED_EXCEL-0D1117?style=for-the-badge&logo=microsoftexcel&logoColor=217346" alt="Advanced Excel" />
+  <img src="https://img.shields.io/badge/PANDAS-0D1117?style=for-the-badge&logo=pandas&logoColor=FFFFFF" alt="Pandas" />
+  <img src="https://img.shields.io/badge/SCIKIT--LEARN-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/REACT_NATIVE-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+
 </div>
+
 ---
-📊 GitHub Statistics
+
+<h2 align="center">📊 GitHub Analytics</h2>
+
 <div align="center">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=rehanakhtar051181-boop\&show\_icons=true\&theme=tokyonight\&hide\_border=true" alt="GitHub statistics" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rehanakhtar051181-boop\&layout=compact\&theme=tokyonight\&hide\_border=true\&langs\_count=8" alt="Most used languages" />
-<br/><br/>
-<img width="70%" src="https://streak-stats.demolab.com?user=rehanakhtar051181-boop\&theme=tokyonight\&hide\_border=true" alt="GitHub contribution streak" />
+
+  <img src="https://github-stats-extended.vercel.app/api?username=rehanakhtar051181-boop&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" width="49%" alt="GitHub statistics" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=rehanakhtar051181-boop&layout=compact&theme=github_dark&hide_border=true&langs_count=8" width="49%" alt="Most used languages" />
+
+  <br /><br />
+
+  <img src="https://streak-stats.demolab.com?user=rehanakhtar051181-boop&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=00C9FF&fire=00C9FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" width="85%" alt="GitHub contribution streak" />
+
+  <br /><br />
+
+  <img src="https://img.shields.io/github/followers/rehanakhtar051181-boop?label=FOLLOWERS&style=for-the-badge&color=0e75b6" alt="GitHub followers" />
+
 </div>
+
 ---
-🏆 GitHub Trophies
+
+<h2 align="center">🐍 Contribution Snake</h2>
+
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=rehanakhtar051181-boop\&theme=tokyonight\&no-frame=true\&no-bg=true\&margin-w=8\&column=4" width="100%" alt="GitHub trophies" />
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake" />
+  </picture>
+
 </div>
+
 ---
-📈 Contribution Activity
+
+<h2 align="center">🤝 Connect With Me</h2>
+
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rehanakhtar051181-boop\&bg\_color=0d1117\&color=00c9ff\&line=2f81f7\&point=ffffff\&area=true\&hide\_border=true" width="100%" alt="GitHub contribution activity graph" />
-</div>
----
-🐍 Contribution Snake
-<div align="center">
-<img src="https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake" />
-</div>
----
-🤝 Connect With Me
-<div align="center">
-<a href="https://github.com/rehanakhtar051181-boop">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white" alt="GitHub" />
-</a>
-<a href="https://rehan-akhtar-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-00C9FF?style=for-the-badge\&logo=vercel\&logoColor=white" alt="Portfolio" />
-</a>
-<a href="mailto:rehanakhtar051181@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white" alt="Gmail" />
-</a>
-<br/><br/>
-“Turning data into insights and ideas into applications.”
-<img src="https://capsule-render.vercel.app/api?type=waving\&color=0:050816,45:123B66,100:00C9FF\&height=120\&section=footer" width="100%" alt="Footer banner" />
+
+  <a href="https://github.com/rehanakhtar051181-boop">
+    <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://rehan-akhtar-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-0969DA?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="mailto:rehanakhtar051181@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+
+  <br /><br />
+
+  <b>“Turning data into insights and ideas into applications.”</b>
+
+  <br /><br />
+
+  <sub>Designed around the original astronaut theme.</sub>
+
 </div>
