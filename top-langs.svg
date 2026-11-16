@@ -1,0 +1,178 @@
+<svg width="560" height="250" viewBox="0 0 560 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.16"/>
+      <stop offset="65%" stop-color="#58a6ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f5d4" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      .heading { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #e6edf3; letter-spacing: -0.2px; }
+      .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 500; fill: #7d8590; }
+      .center-num { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 800; fill: #e6edf3; }
+      .center-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10px; font-weight: 600; fill: #7d8590; letter-spacing: 0.6px; }
+      .name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #c9d1d9; }
+      .val { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; fill: #8b949e; }
+    </style>
+  </defs>
+
+  <!-- Card Background (matches GitHub Dark #0d1117) -->
+  <rect x="0.5" y="0.5" width="559" height="249" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="24" y="0" width="512" height="1.5" fill="url(#accentLine)"/>
+
+  <!-- Header -->
+  <text x="24" y="34" class="heading">Most Used Languages</text>
+  <text x="536" y="34" text-anchor="end" class="sub">Python • SQL • BI • Web</text>
+
+  <!-- Left: Animated Donut Chart -->
+  <g transform="translate(115, 142)">
+    <!-- Soft Ambient Glow -->
+    <circle cx="0" cy="0" r="82" fill="url(#ringGlow)">
+      <animate attributeName="r" values="78;86;78" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Rotating Outer Orbit Ring -->
+    <circle cx="0" cy="0" r="72" stroke="#30363d" stroke-width="1" stroke-dasharray="4 6" fill="none">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="-72" r="2.5" fill="#00f5d4">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Track -->
+    <circle cx="0" cy="0" r="56" stroke="#161b22" stroke-width="14" fill="none"/>
+
+    <!-- Circumference = 2 * pi * 56 = 351.86 -->
+    <g transform="rotate(-90)">
+      <!-- Python 28.1% -->
+      <circle cx="0" cy="0" r="56" stroke="#3572A5" stroke-width="14" stroke-dasharray="96 352" stroke-dashoffset="0" fill="none">
+        <animate attributeName="stroke-dasharray" from="0 352" to="96 352" dur="0.8s" fill="freeze"/>
+      </circle>
+      <!-- SQL / MySQL 19.1% -->
+      <circle cx="0" cy="0" r="56" stroke="#f78166" stroke-width="14" stroke-dasharray="65 352" stroke-dashoffset="-99" fill="none">
+        <animate attributeName="stroke-dasharray" from="0 352" to="65 352" dur="0.8s" begin="0.1s" fill="freeze"/>
+      </circle>
+      <!-- Power BI 14.6% -->
+      <circle cx="0" cy="0" r="56" stroke="#F2C811" stroke-width="14" stroke-dasharray="49 352" stroke-dashoffset="-166" fill="none">
+        <animate attributeName="stroke-dasharray" from="0 352" to="49 352" dur="0.8s" begin="0.2s" fill="freeze"/>
+      </circle>
+      <!-- Excel 12.4% -->
+      <circle cx="0" cy="0" r="56" stroke="#2ea043" stroke-width="14" stroke-dasharray="41 352" stroke-dashoffset="-217" fill="none">
+        <animate attributeName="stroke-dasharray" from="0 352" to="41 352" dur="0.8s" begin="0.3s" fill="freeze"/>
+      </circle>
+      <!-- JS 10.1% -->
+      <circle cx="0" cy="0" r="56" stroke="#f1e05a" stroke-width="14" stroke-dasharray="33 352" stroke-dashoffset="-261" fill="none">
+        <animate attributeName="stroke-dasharray" from="0 352" to="33 352" dur="0.8s" begin="0.4s" fill="freeze"/>
+      </circle>
+      <!-- React 7.9% -->
+      <circle cx="0" cy="0" r="56" stroke="#61DAFB" stroke-width="14" stroke-dasharray="26 352" stroke-dashoffset="-297" fill="none">
+        <animate attributeName="stroke-dasharray" from="0 352" to="26 352" dur="0.8s" begin="0.5s" fill="freeze"/>
+      </circle>
+      <!-- HTML/CSS + PHP 7.8% -->
+      <circle cx="0" cy="0" r="56" stroke="#a371f7" stroke-width="14" stroke-dasharray="25 352" stroke-dashoffset="-326" fill="none">
+        <animate attributeName="stroke-dasharray" from="0 352" to="25 352" dur="0.8s" begin="0.6s" fill="freeze"/>
+      </circle>
+    </g>
+
+    <!-- Center Label -->
+    <text x="0" y="-2" text-anchor="middle" class="center-num">8</text>
+    <text x="0" y="14" text-anchor="middle" class="center-lbl">TOOLS</text>
+  </g>
+
+  <!-- Right: Clean Animated Bars (explicit y coordinates, zero CSS transform conflict) -->
+  <g transform="translate(232, 62)">
+    <!-- 1. Python -->
+    <g transform="translate(0, 0)">
+      <circle cx="4" cy="6" r="4" fill="#3572A5"/>
+      <text x="15" y="10" class="name">Python</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="110" height="6" rx="3" fill="#3572A5">
+        <animate attributeName="width" from="0" to="110" dur="0.8s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">28.1%</text>
+    </g>
+
+    <!-- 2. SQL / MySQL -->
+    <g transform="translate(0, 22)">
+      <circle cx="4" cy="6" r="4" fill="#f78166"/>
+      <text x="15" y="10" class="name">SQL / MySQL</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="84" height="6" rx="3" fill="#f78166">
+        <animate attributeName="width" from="0" to="84" dur="0.8s" begin="0.08s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">19.1%</text>
+    </g>
+
+    <!-- 3. Power BI -->
+    <g transform="translate(0, 44)">
+      <circle cx="4" cy="6" r="4" fill="#F2C811"/>
+      <text x="15" y="10" class="name">Power BI</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="66" height="6" rx="3" fill="#F2C811">
+        <animate attributeName="width" from="0" to="66" dur="0.8s" begin="0.16s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">14.6%</text>
+    </g>
+
+    <!-- 4. Excel -->
+    <g transform="translate(0, 66)">
+      <circle cx="4" cy="6" r="4" fill="#2ea043"/>
+      <text x="15" y="10" class="name">Excel</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="56" height="6" rx="3" fill="#2ea043">
+        <animate attributeName="width" from="0" to="56" dur="0.8s" begin="0.24s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">12.4%</text>
+    </g>
+
+    <!-- 5. JavaScript -->
+    <g transform="translate(0, 88)">
+      <circle cx="4" cy="6" r="4" fill="#f1e05a"/>
+      <text x="15" y="10" class="name">JavaScript</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="46" height="6" rx="3" fill="#f1e05a">
+        <animate attributeName="width" from="0" to="46" dur="0.8s" begin="0.32s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">10.1%</text>
+    </g>
+
+    <!-- 6. React / Native -->
+    <g transform="translate(0, 110)">
+      <circle cx="4" cy="6" r="4" fill="#61DAFB"/>
+      <text x="15" y="10" class="name">React / Native</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="36" height="6" rx="3" fill="#61DAFB">
+        <animate attributeName="width" from="0" to="36" dur="0.8s" begin="0.40s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">7.9%</text>
+    </g>
+
+    <!-- 7. HTML5 / CSS3 -->
+    <g transform="translate(0, 132)">
+      <circle cx="4" cy="6" r="4" fill="#a371f7"/>
+      <text x="15" y="10" class="name">HTML5 / CSS3</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="22" height="6" rx="3" fill="#a371f7">
+        <animate attributeName="width" from="0" to="22" dur="0.8s" begin="0.48s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">4.5%</text>
+    </g>
+
+    <!-- 8. PHP -->
+    <g transform="translate(0, 154)">
+      <circle cx="4" cy="6" r="4" fill="#777BB4"/>
+      <text x="15" y="10" class="name">PHP</text>
+      <rect x="120" y="3" width="136" height="6" rx="3" fill="#161b22"/>
+      <rect x="120" y="3" width="16" height="6" rx="3" fill="#777BB4">
+        <animate attributeName="width" from="0" to="16" dur="0.8s" begin="0.56s" fill="freeze"/>
+      </rect>
+      <text x="304" y="10" text-anchor="end" class="val">3.3%</text>
+    </g>
+  </g>
+</svg>
