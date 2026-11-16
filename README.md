@@ -38,16 +38,13 @@
 
 </td>
 <td width="36%" valign="middle" align="center">
-<img src="./data-core.svg" width="225" alt="Animated Data Core" />
+<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/main/data-core.svg%3Fv%3D2" width="225" alt="Animated Data Core" />
 </td>
 </tr>
 </table>
 
 <div align="center">
 <img width="100%" src="./divider.svg" alt="" />
-
-
-
 
 <h3>Tech Stack</h3>
 
@@ -76,9 +73,6 @@
 
 <img width="100%" src="./divider.svg" alt="" />
 
-
-
-
 <h3>Certifications</h3>
 
 <p align="center">
@@ -91,22 +85,11 @@
 
 <img width="100%" src="./divider.svg" alt="" />
 
-
-
-
 <h3>Trophies</h3>
 
 <img width="100%" src="./trophies.svg" alt="GitHub Trophies" />
 
-
-
-
-
-
 <img width="100%" src="./divider.svg" alt="" />
-
-
-
 
 <h3>GitHub Stats</h3>
 
@@ -127,22 +110,11 @@
 
 <img width="100%" src="./divider.svg" alt="" />
 
-
-
-
 <h3>Activity Graph</h3>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rehanakhtar051181-boop&bg_color=0d1117&color=00f5d4&line=58a6ff&point=f43f8e&area=true&hide_border=false&border_color=30363d&custom_title=Contribution%20Graph" alt="Activity Graph" />
 
-
-
-
-
-
 <img width="100%" src="./divider.svg" alt="" />
-
-
-
 
 <h3>Contribution Snake</h3>
 
