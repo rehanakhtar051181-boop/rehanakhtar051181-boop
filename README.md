@@ -115,20 +115,18 @@
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rehanakhtar051181-boop&bg_color=0d1117&color=00f5d4&line=58a6ff&point=f43f8e&area=true&hide_border=false&border_color=30363d&custom_title=Contribution%20Graph" alt="Activity Graph" />
 
 <img width="100%" src="./divider.svg" alt="" />
-
 <h3>Contribution Snake</h3>
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake-dark.svg" />
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake.svg" />
-<img alt="Contribution Snake" src="https://www.google.com/search?q=https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake-dark.svg" />
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake.svg" />
+<img alt="Contribution Snake" src="https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </picture>
 
 </div>
 
 <details>
 <summary><b>Snake Workflow (.github/workflows/snake.yml)</b></summary>
-
 name: Generate Contribution Snake
 
 on:
