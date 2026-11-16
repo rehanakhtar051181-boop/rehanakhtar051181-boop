@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070c"/>
+      <stop offset="55%" stop-color="#0a0f18"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="neonLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00f5d4" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#58a6ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#f43f8e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f5d4" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="19%" cy="50%" r="34%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#1f6feb" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#05070c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="0" y="0" width="1280" height="320" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1280" height="320" fill="url(#bgGrad)"/>
+    <rect width="1280" height="320" fill="url(#coreGlow)"/>
+
+    <!-- Clean Subtle Grid -->
+    <g stroke="#1f6feb" stroke-width="0.6" opacity="0.18">
+      <line x1="0" y1="64" x2="1280" y2="64"/>
+      <line x1="0" y1="128" x2="1280" y2="128"/>
+      <line x1="0" y1="192" x2="1280" y2="192"/>
+      <line x1="0" y1="256" x2="1280" y2="256"/>
+      <line x1="160" y1="0" x2="160" y2="320"/>
+      <line x1="320" y1="0" x2="320" y2="320"/>
+      <line x1="480" y1="0" x2="480" y2="320"/>
+      <line x1="640" y1="0" x2="640" y2="320"/>
+      <line x1="800" y1="0" x2="800" y2="320"/>
+      <line x1="960" y1="0" x2="960" y2="320"/>
+      <line x1="1120" y1="0" x2="1120" y2="320"/>
+    </g>
+
+    <!-- Smooth Vertical Scan Sweep -->
+    <rect x="0" y="-70" width="1280" height="70" fill="url(#scanGrad)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 390" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Left Animated HUD Emblem -->
+    <g transform="translate(220, 160)">
+      <circle cx="0" cy="0" r="104" fill="none" stroke="#00f5d4" stroke-width="1.5" stroke-dasharray="56 22 14 22" opacity="0.8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="84" fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-dasharray="12 9" opacity="0.65">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="66" fill="none" stroke="#f43f8e" stroke-width="1.5" stroke-dasharray="34 100" opacity="0.85" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="50" fill="#070b14" stroke="#30363d" stroke-width="1.5"/>
+
+      <!-- Animated Analytics Bars -->
+      <g transform="translate(-29, 20)">
+        <rect x="0" y="-16" width="6" height="16" rx="2" fill="#00f5d4">
+          <animate attributeName="height" values="16;34;12;28;16" dur="1.8s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="-16;-34;-12;-28;-16" dur="1.8s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="11" y="-28" width="6" height="28" rx="2" fill="#58a6ff">
+          <animate attributeName="height" values="28;12;38;18;28" dur="2.1s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="-28;-12;-38;-18;-28" dur="2.1s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="22" y="-22" width="6" height="22" rx="2" fill="#00f5d4">
+          <animate attributeName="height" values="22;40;16;32;22" dur="1.6s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="-22;-40;-16;-32;-22" dur="1.6s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="33" y="-36" width="6" height="36" rx="2" fill="#f43f8e">
+          <animate attributeName="height" values="36;18;42;24;36" dur="2.3s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="-36;-18;-42;-24;-36" dur="2.3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="44" y="-24" width="6" height="24" rx="2" fill="#58a6ff">
+          <animate attributeName="height" values="24;38;14;30;24" dur="1.9s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="-24;-38;-14;-30;-24" dur="1.9s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="55" y="-18" width="6" height="18" rx="2" fill="#00f5d4">
+          <animate attributeName="height" values="18;32;10;26;18" dur="1.7s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="-18;-32;-10;-26;-18" dur="1.7s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- Corner Brackets -->
+    <g stroke="#00f5d4" stroke-width="2" fill="none" opacity="0.75">
+      <polyline points="20,40 20,20 40,20"/>
+      <polyline points="1240,20 1260,20 1260,40"/>
+      <polyline points="20,280 20,300 40,300"/>
+      <polyline points="1240,300 1260,300 1260,280"/>
+    </g>
+
+    <!-- Clean Aligned Typography -->
+    <g transform="translate(390, 0)">
+      <text x="0" y="136" fill="#ffffff" font-family="'Segoe UI', 'Inter', system-ui, sans-serif" font-size="56" font-weight="800" letter-spacing="8">REHAN AKHTAR</text>
+
+      <!-- Animated Accent Bar -->
+      <rect x="0" y="160" width="760" height="2" fill="url(#neonLine)"/>
+      <rect x="0" y="159" width="84" height="4" rx="2" fill="#00f5d4" filter="url(#glow)">
+        <animate attributeName="x" values="0;676;0" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="0" y="200" fill="#00f5d4" font-family="'Segoe UI', 'Inter', system-ui, sans-serif" font-size="20" font-weight="700" letter-spacing="6">DATA ANALYST</text>
+      <text x="0" y="236" fill="#8b949e" font-family="'Fira Code', 'JetBrains Mono', monospace" font-size="14" letter-spacing="1.8">Python  •  SQL  •  Power BI  •  Pandas  •  Scikit-Learn  •  MySQL</text>
+    </g>
+
+    <!-- Animated Bottom Data Pulse -->
+    <polyline points="390,278 540,278 555,266 570,288 585,272 600,278 860,278 875,262 890,290 905,274 920,278 1150,278"
+              fill="none" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="160 600" opacity="0.85" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" from="760" to="0" dur="3s" repeatCount="indefinite"/>
+    </polyline>
+  </g>
+
+  <rect x="1" y="1" width="1278" height="318" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+</svg>

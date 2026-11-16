@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="260" height="260">
+  <defs>
+    <radialGradient id="hudGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#1f6feb" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coreDiamond" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#f43f8e"/>
+    </linearGradient>
+    <filter id="neon" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="260" height="260" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="260" height="260" rx="18" fill="url(#hudGlow)"/>
+
+  <!-- Corner Brackets -->
+  <g stroke="#00f5d4" stroke-width="1.8" fill="none" opacity="0.7">
+    <polyline points="16,30 16,16 30,16"/>
+    <polyline points="230,16 244,16 244,30"/>
+    <polyline points="16,230 16,244 30,244"/>
+    <polyline points="230,244 244,244 244,230"/>
+  </g>
+
+  <!-- Rotating HUD Core -->
+  <g transform="translate(130, 130)">
+    <circle cx="0" cy="0" r="96" fill="none" stroke="#30363d" stroke-width="1"/>
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#00f5d4" stroke-width="2" stroke-dasharray="42 18 12 18" opacity="0.85">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-dasharray="10 8" opacity="0.75">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="52" fill="none" stroke="#f43f8e" stroke-width="2" stroke-dasharray="30 85" opacity="0.9" filter="url(#neon)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Orbiting Nodes -->
+    <g>
+      <circle cx="90" cy="0" r="4.5" fill="#00f5d4" filter="url(#neon)"/>
+      <circle cx="-90" cy="0" r="4" fill="#f43f8e" filter="url(#neon)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Pulsing Diamond Core -->
+    <g filter="url(#neon)">
+      <polygon points="0,-30 26,0 0,30 -26,0" fill="#070b12" stroke="url(#coreDiamond)" stroke-width="2.2">
+        <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="2.4s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="0,-14 12,0 0,14 -12,0" fill="url(#coreDiamond)" opacity="0.85">
+        <animate attributeName="opacity" values="0.9;0.45;0.9" dur="2.4s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  </g>
+</svg>
