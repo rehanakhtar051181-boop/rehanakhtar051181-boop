@@ -24,7 +24,7 @@
 <tr>
 <td width="64%" valign="middle">
 
-<h3>About Me</h3>
+<p><strong><font size="4">About Me</font></strong></p>
 
 <p>I'm <b>Rehan Akhtar</b>, a <b>Data Analyst</b> based in <b>West Bengal, India</b>. I turn raw, multi-source datasets into clean data models, predictive insights, and executive-ready dashboards.</p>
 
@@ -166,25 +166,26 @@ on:
   push:
     branches:
       - main
+      - master
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Generate GitHub Contribution Snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: rehanakhtar051181-boop
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push Snake to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
