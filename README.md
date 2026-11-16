@@ -38,7 +38,7 @@
 
 </td>
 <td width="36%" valign="middle" align="center">
-<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/rehanakhtar051181-boop/rehanakhtar051181-boop/main/data-core.svg%3Fv%3D2" width="225" alt="Animated Data Core" />
+<img src="./data_core.svg" width="225" alt="Animated Data Core" />
 </td>
 </tr>
 </table>
@@ -56,8 +56,8 @@
 <img src="https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=00F5D4" alt="Python" />
 <img src="https://img.shields.io/badge/SQL-161B22?style=for-the-badge&logo=postgresql&logoColor=58A6FF" alt="SQL" />
 <img src="https://img.shields.io/badge/MySQL-161B22?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL" />
-<img src="https://img.shields.io/badge/Power_BI-161B22?style=for-the-badge&logo=powerbi&logoColor=F2C811" alt="Power BI" />
-<img src="https://img.shields.io/badge/Advanced_Excel-161B22?style=for-the-badge&logo=microsoftexcel&logoColor=217346" alt="Advanced Excel" />
+<img src="https://img.shields.io/badge/Power_BI-161B22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0YyQzgxMSI%2BPHJlY3QgeD0iMTUiIHk9IjIiIHdpZHRoPSI1IiBoZWlnaHQ9IjIwIiByeD0iMSIvPjxyZWN0IHg9IjkuNSIgeT0iNyIgd2lkdGg9IjUiIGhlaWdodD0iMTUiIHJ4PSIxIi8%2BPHJlY3QgeD0iNCIgeT0iMTIiIHdpZHRoPSI1IiBoZWlnaHQ9IjEwIiByeD0iMSIvPjwvc3ZnPg%3D%3D" alt="Power BI" />
+<img src="https://img.shields.io/badge/Advanced_Excel-161B22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzMzQzQ4MSI%2BPHBhdGggZD0iTTE0IDJINmEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMlY4bC02LTZ6bS0yLjQgMTVMOS41IDEzLjcgNy40IDE3SDUuNmwzLTQuNkw1LjggOGgxLjhsMS45IDMuMUwxMS40IDhoMS44bC0yLjggNC40IDMgNC42aC0xLjh6TTE0IDlWMy41TDE5LjUgOUgxNHoiLz48L3N2Zz4%3D" alt="Advanced Excel" />
 <img src="https://img.shields.io/badge/Pandas-161B22?style=for-the-badge&logo=pandas&logoColor=FFFFFF" alt="Pandas" />
 <img src="https://img.shields.io/badge/Scikit--Learn-161B22?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Scikit-Learn" />
 </p>
