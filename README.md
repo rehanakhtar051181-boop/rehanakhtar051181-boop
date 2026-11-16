@@ -105,7 +105,7 @@
 </table>
 
 <p align="center">
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=rehanakhtar051181-boop&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00f5d4&text_color=c9d1d9&border_color=30363d&border_radius=10&langs_count=8" alt="Most Used Languages" />
+<img src="./top-langs.svg" alt="Most Used Languages & Tools" />
 </p>
 
 <img width="100%" src="./divider.svg" alt="" />
