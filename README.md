@@ -104,8 +104,10 @@
 </tr>
 </table>
 
+<h3>Languages Stats</h3>
+
 <p align="center">
-<img src="./top-langs.svg" alt="Most Used Languages & Tools" />
+<img width="100%" src="./top-langs.svg" alt="Most Used Languages & Tools" />
 </p>
 
 <img width="100%" src="./divider.svg" alt="" />
