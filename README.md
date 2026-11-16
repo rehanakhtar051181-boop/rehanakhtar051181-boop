@@ -76,11 +76,11 @@
 <h3>Certifications</h3>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Deloitte_Data_Analytics-161B22?style=for-the-badge&logo=deloitte&logoColor=86BC25" alt="Deloitte" />
+<img src="https://img.shields.io/badge/Deloitte_Data_Analytics-161B22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMSIgeT0iMTgiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjE4IiBmaWxsPSIjRkZGRkZGIj5EPC90ZXh0PjxjaXJjbGUgY3g9IjE5IiBjeT0iMTYiIHI9IjMiIGZpbGw9IiM4NkJDMjUiLz48L3N2Zz4%3D" alt="Deloitte" />
 <img src="https://img.shields.io/badge/TATA_Data_Visualisation-161B22?style=for-the-badge&logo=tata&logoColor=58A6FF" alt="TATA" />
-<img src="https://img.shields.io/badge/IBM_SkillsBuild-161B22?style=for-the-badge&logo=ibm&logoColor=00F5D4" alt="IBM" />
+<img src="https://img.shields.io/badge/IBM_SkillsBuild-161B22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHRleHQgeD0iMCIgeT0iMTciIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjayxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iOTAwIiBmb250LXNpemU9IjEyIiBmaWxsPSIjMDBGNUQ0Ij5JQk08L3RleHQ%2BPC9zdmc%2B" alt="IBM" />
 <img src="https://img.shields.io/badge/HP_LIFE_Data_Science-161B22?style=for-the-badge&logo=hp&logoColor=0096D6" alt="HP" />
-<img src="https://img.shields.io/badge/Nestl%C3%A9_YEP-161B22?style=for-the-badge&logo=nestle&logoColor=FFFFFF" alt="Nestle YEP" />
+<img src="https://img.shields.io/badge/Nestl%C3%A9_YEP-161B22?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPHRleHQgeD0iMTIiIHk9IjE2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iR2VvcmdpYSxzZXJpZiIgZm9udC13ZWlnaHQ9IjcwMCIgZm9udC1zaXplPSIxMyIgZmlsbD0iI0ZGRkZGRiI%2BTjwvdGV4dD48L3N2Zz4%3D" alt="Nestle YEP" />
 </p>
 
 <img width="100%" src="./divider.svg" alt="" />
